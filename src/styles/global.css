@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #3688A4;
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --color-BerryTeal: #2F8A8A;
+    --color-BerryDeep: #256F70;
+    --color-BerrySky: #8CCDF0;
+    --color-BerryMist: #E9F4FB;
+    --color-BerryInk: #1D2B2E;
+    --color-BerryNight: #1B1B1B;
+
+    --font-size-h1: 52px;
+    --font-size-h2: 34px;
+    --font-size-h3: 27px;
+    --font-size-h4: 18px;
+    --font-size-h5: 14px;
+    --font-size-h6: 12px;
+    --font-size-body: 14px;
+    --font-size-button: 13px;
+    --font-size-caption: 11px;
+
+    --font-title: "Inter", sans-serif;
+    --font-body: "Inter", sans-serif;
+}
