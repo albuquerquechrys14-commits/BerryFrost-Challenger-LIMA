@@ -1,168 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Berry Frost - Restaurante</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berry Frost - Restaurante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
-  <header class="header">
-    <a href="#inicio" class="logo-tab">
-      <img src="images/BerryFrost_Logo.png" alt="Berry Frost">
-    </a>
-    <nav class="nav">
-      <a href="#inicio">Início</a>
-      <a href="#menu">Menu</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#galeria">Galeria</a>
-      <a href="#contato">Contato</a>
-    </nav>
-    <a href="#menu" class="btn btn-pill">Peça agora</a>
-  </header>
+    <header>
+        <a href="#inicio" class="logo-tab">
+            <img src="./assets/images/BerryFrost_Logo.png" alt="Berry Frost">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#menu" class="btn-primary">Peça agora</a>
+    </header>
 
-  <section class="hero" id="inicio">
-    <div class="hero-text">
-      <h1>Comida Feita<br>com <span>amor</span></h1>
-      <p>Ingredientes frescos selecionados com carinho,<br>preparados por chefs apaixonados para trazer o melhor<br>sabor à sua mesa.</p>
-      <div class="hero-buttons">
-        <a href="#menu" class="btn btn-dark">Peça agora</a>
-        <a href="#menu" class="btn btn-white">Ver cardápio</a>
-      </div>
-      <div class="hero-features">
-        <div><strong>Ingredientes frescos</strong><span>Colhidos diariamente</span></div>
-        <div><strong>Entrega rápida</strong><span>Em até 30 minutos</span></div>
-        <div><strong>Feito com carinho</strong><span>Com receitas especiais</span></div>
-      </div>
-    </div>
-    <div class="hero-image">
-      <span class="circle"></span>
-      <span class="line l1"></span><span class="line l2"></span><span class="line l3"></span>
-      <span class="line r1"></span><span class="line r2"></span><span class="line r3"></span>
-      <img src="images/Main_Image.png" alt="Milk-shake, pizza e hambúrguer">
-    </div>
-  </section>
+    <main id="inicio">
+        <div class="main-content">
+            <h1>Comida Feita<br>com <span class="text-highlight">amor</span></h1>
+            <p>Ingredientes frescos selecionados com carinho, preparados por chefs apaixonados para trazer o melhor sabor à sua mesa.</p>
+            <nav>
+                <a href="#menu" class="btn-dark">Peça agora</a>
+                <a href="#menu" class="btn-outline">Ver cardápio</a>
+            </nav>
+            <div class="main-features">
+                <div>
+                    <h6>Ingredientes frescos</h6>
+                    <p>Colhidos diariamente</p>
+                </div>
+                <div>
+                    <h6>Entrega rápida</h6>
+                    <p>Em até 30 minutos</p>
+                </div>
+                <div>
+                    <h6>Feito com carinho</h6>
+                    <p>Com receitas especiais</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-image">
+            <img src="./assets/images/Main_Image.png" alt="Milk-shake, pizza e hambúrguer">
+        </div>
+    </main>
 
-  <section class="menu" id="menu">
-    <p class="eyebrow"><span></span>NOSSOS ESPECIAIS</p>
-    <div class="menu-head">
-      <div>
-        <h2>Cardápio Popular</h2>
-        <p>Os pratos favoritos dos nossos clientes, preparados com ingredientes frescos todo dia.</p>
-      </div>
-      <a href="#menu" class="btn btn-white small">Ver cardápio</a>
-    </div>
+    <section class="section-menu" id="menu">
+        <span class="eyebrow">NOSSOS ESPECIAIS</span>
+        <div class="menu-header">
+            <div>
+                <h2>Cardápio Popular</h2>
+                <p>Os pratos favoritos dos nossos clientes, preparados com ingredientes frescos todo dia.</p>
+            </div>
+            <a href="#menu" class="btn-outline">Ver cardápio</a>
+        </div>
 
-    <div class="cards">
-      <article class="card">
-        <img src="images/Pedido_Pizza.png" alt="Pizza Baiana">
-        <h3>Pizza Baiana</h3>
-        <p>Molho de tomate fresco, mussarela e linguiça apimentada e bacon.</p>
-        <strong class="price">R$ 105,00</strong>
-        <button class="btn btn-primary">Adicionar ao carrinho</button>
-      </article>
+        <div class="menu-container">
+            <article class="menu-card">
+                <img src="./assets/images/Pedido_Pizza.png" alt="Pizza Baiana">
+                <h3>Pizza Baiana</h3>
+                <p>Molho de tomate fresco, mussarela e linguiça apimentada e bacon.</p>
+                <span class="price">R$ 105,00</span>
+                <button class="btn-primary">Adicionar ao carrinho</button>
+            </article>
 
-      <article class="card">
-        <img src="images/Pedido_Hamburguer.png" alt="Hambúrguer Personalizado">
-        <h3>Hambúrguer Personalizado</h3>
-        <p>Hambúrguer duplo, Cheddar, Salada, e vários outros sabores!</p>
-        <strong class="price">R$ 56,90</strong>
-        <button class="btn btn-primary">Adicionar ao carrinho</button>
-      </article>
+            <article class="menu-card">
+                <img src="./assets/images/Pedido_Hamburguer.png" alt="Hambúrguer Personalizado">
+                <h3>Hambúrguer Personalizado</h3>
+                <p>Hambúrguer duplo, Cheddar, Salada, e vários outros sabores!</p>
+                <span class="price">R$ 56,90</span>
+                <button class="btn-primary">Adicionar ao carrinho</button>
+            </article>
 
-      <article class="card">
-        <img src="images/Pedido_Batata.png" alt="Batatas Fritas caseiras">
-        <h3>Batatas Fritas caseiras</h3>
-        <p>Croquetes por fora, macias por dentro, com sal a gosto.</p>
-        <strong class="price">R$ 26,98</strong>
-        <button class="btn btn-primary">Adicionar ao carrinho</button>
-      </article>
+            <article class="menu-card">
+                <img src="./assets/images/Pedido_Batata.png" alt="Batatas Fritas caseiras">
+                <h3>Batatas Fritas caseiras</h3>
+                <p>Croquetes por fora, macias por dentro, com sal a gosto.</p>
+                <span class="price">R$ 26,98</span>
+                <button class="btn-primary">Adicionar ao carrinho</button>
+            </article>
 
-      <article class="card">
-        <span class="badge">mais pedido</span>
-        <img src="images/Pedido_MilkShake.png" alt="Shake's geral">
-        <h3>Shake's geral</h3>
-        <p>Cremoso e gelado, feito com cacau 70% e muito chantilly.</p>
-        <strong class="price">R$ 20,00</strong>
-        <button class="btn btn-primary">Adicionar ao carrinho</button>
-      </article>
-    </div>
-  </section>
+            <article class="menu-card">
+                <span class="badge">mais pedido</span>
+                <img src="./assets/images/Pedido_MilkShake.png" alt="Shake's geral">
+                <h3>Shake's geral</h3>
+                <p>Cremoso e gelado, feito com cacau 70% e muito chantilly.</p>
+                <span class="price">R$ 20,00</span>
+                <button class="btn-primary">Adicionar ao carrinho</button>
+            </article>
+        </div>
+    </section>
 
-  <section class="delivery" id="sobre">
-    <div class="delivery-text">
-      <span class="tag">🛵 Delivery Rápido</span>
-      <h2>Receba em casa<br>com muito <span>sabor</span></h2>
-      <p>Faça seu pedido agora e receba pratos fresquinhos na sua porta em até 30 minutos. Atendemos toda a região com taxa especial de entrega.</p>
-      <ul>
-        <li>Rastreamento em tempo real</li>
-        <li>Embalagem térmica garantida</li>
-        <li>Pagamento na entrega ou online</li>
-      </ul>
-      <a href="#menu" class="btn btn-white small">Peça agora</a>
-    </div>
-    <div class="delivery-image" id="galeria">
-      <img src="images/Fantasma_Escondido.png" alt="" class="ghost">
-      <img src="images/Frost_Restaurante.png" alt="Restaurante Berry Frost" class="restaurant">
-    </div>
-  </section>
+    <section class="section-delivery" id="sobre">
+        <div class="delivery-content">
+            <span class="tag">🛵 Delivery Rápido</span>
+            <h2>Receba em casa<br>com muito <span class="text-light">sabor</span></h2>
+            <p>Faça seu pedido agora e receba pratos fresquinhos na sua porta em até 30 minutos. Atendemos toda a região com taxa especial de entrega.</p>
+            <ul>
+                <li>Rastreamento em tempo real</li>
+                <li>Embalagem térmica garantida</li>
+                <li>Pagamento na entrega ou online</li>
+            </ul>
+            <a href="#menu" class="btn-outline-dark">Peça agora</a>
+        </div>
+        <div class="delivery-image" id="galeria">
+            <img src="./assets/images/Fantasma_Escondido.png" alt="" class="ghost">
+            <img src="./assets/images/Frost_Restaurante.png" alt="Restaurante Berry Frost" class="restaurant">
+        </div>
+    </section>
 
-  <section class="stats">
-    <div class="stat">
-      <img src="images/Emoji_Clientes.png" alt="">
-      <div><strong>+1.000.000.000</strong><span>Clientes satisfeitos</span></div>
-    </div>
-    <div class="stat">
-      <img src="images/Emoji_Pratos.png" alt="">
-      <div><strong>+200</strong><span>Pratos no cardápio</span></div>
-    </div>
-    <div class="stat">
-      <img src="images/Emoji_Avaliacao.png" alt="">
-      <div><strong>5 / 5</strong><span>Avaliação média</span></div>
-    </div>
-    <div class="stat">
-      <img src="images/Emoji_Entregador.png" alt="">
-      <div><strong>1 min</strong><span>Tempo médio de entrega</span></div>
-    </div>
-  </section>
+    <section class="section-statistics">
+        <div class="statistics-item">
+            <img src="./assets/images/Emoji_Clientes.png" alt="">
+            <div>
+                <h2>+1.000.000.000</h2>
+                <p>Clientes satisfeitos</p>
+            </div>
+        </div>
+        <div class="statistics-item">
+            <img src="./assets/images/Emoji_Pratos.png" alt="">
+            <div>
+                <h2>+200</h2>
+                <p>Pratos no cardápio</p>
+            </div>
+        </div>
+        <div class="statistics-item">
+            <img src="./assets/images/Emoji_Avaliacao.png" alt="">
+            <div>
+                <h2>5 / 5</h2>
+                <p>Avaliação média</p>
+            </div>
+        </div>
+        <div class="statistics-item">
+            <img src="./assets/images/Emoji_Entregador.png" alt="">
+            <div>
+                <h2>1 min</h2>
+                <p>Tempo médio de entrega</p>
+            </div>
+        </div>
+    </section>
 
-  <footer class="footer" id="contato">
-    <div class="footer-main">
-      <div class="footer-brand">
-        <img src="images/BerryFrost_Logo.png" alt="Berry Frost">
-        <p>© Copyright 2026 - Berry Frost. Todos os direitos reservados.<br>Vindos da fazenda Berry, da Família Oliveira!</p>
-      </div>
-      <div class="footer-col">
-        <h4>Navegação</h4>
-        <a href="#inicio">Início</a>
-        <a href="#menu">Menu</a>
-        <a href="#sobre">Sobre nós</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
-      </div>
-      <div class="footer-col">
-        <h4>Contato</h4>
-        <p>Rua Boca Alegre, 333 - Paulista</p>
-        <p>Tel: 4002-8922</p>
-        <p>Email: verdade@berryfrost.com.br</p>
-        <p>Seg a Dom, das 09h às 21:00h</p>
-      </div>
-    </div>
-    <div class="socials">
-      <a href="#"><img src="images/RedeSocial_FaceBook.png" alt="Facebook"></a>
-      <a href="#"><img src="images/RedeSocial_Instagram.png" alt="Instagram"></a>
-      <a href="#"><img src="images/RedeSocial_Youtube.png" alt="YouTube"></a>
-      <a href="#"><img src="images/RedeSocial_Twitter.png" alt="X (Twitter)"></a>
-    </div>
-    <div class="footer-bottom">
-      <a href="#">Privacidade</a>
-      <a href="#">Termos de uso</a>
-    </div>
-  </footer>
+    <footer id="contato">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="./assets/images/BerryFrost_Logo.png" alt="Berry Frost">
+                <p>© Copyright 2026 - Berry Frost. Todos os direitos reservados.<br>Vindos da fazenda Berry, da Família Oliveira!</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navegação</h4>
+                <a href="#inicio">Início</a>
+                <a href="#menu">Menu</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer-column">
+                <h4>Contato</h4>
+                <p>Rua Boca Alegre, 333 - Paulista</p>
+                <p>Tel: 4002-8922</p>
+                <p>Email: verdade@berryfrost.com.br</p>
+                <p>Seg a Dom, das 09h às 21:00h</p>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <a href="#"><img src="./assets/images/RedeSocial_FaceBook.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/images/RedeSocial_Instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="./assets/images/RedeSocial_Youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="./assets/images/RedeSocial_Twitter.png" alt="X (Twitter)"></a>
+        </div>
+        <div class="footer-bottom">
+            <a href="#">Privacidade</a>
+            <a href="#">Termos de uso</a>
+        </div>
+    </footer>
 
 </body>
 </html>
