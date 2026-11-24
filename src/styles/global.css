@@ -15,17 +15,21 @@
     --color-BerryMist: #E9F4FB;
     --color-BerryInk: #1D2B2E;
     --color-BerryNight: #1B1B1B;
+    --color-BerryPink: #B5179E;
 
-    --font-size-h1: 52px;
-    --font-size-h2: 34px;
-    --font-size-h3: 27px;
-    --font-size-h4: 18px;
-    --font-size-h5: 14px;
-    --font-size-h6: 12px;
-    --font-size-body: 14px;
-    --font-size-button: 13px;
-    --font-size-caption: 11px;
+    --font-size-h1: 62px;
+    --font-size-h2: 40px;
+    --font-size-h3: 30px;
+    --font-size-h4: 20px;
+    --font-size-h5: 16px;
+    --font-size-h6: 13px;
+    --font-size-body: 15px;
+    --font-size-button: 14px;
+    --font-size-caption: 12px;
 
-    --font-title: "Inter", sans-serif;
+    --font-title: "Fredoka", sans-serif;
     --font-body: "Inter", sans-serif;
+
+    --shadow-soft: 0 6px 18px rgba(0, 0, 0, 0.12);
+    --shadow-strong: 0 14px 30px rgba(0, 0, 0, 0.25);
 }
